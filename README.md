@@ -44,7 +44,7 @@ Optional: Heroicons / react-icons for UI icons
 cd backend
 npm install
 # create .env file (see sample below)
-npm run dev   # uses nodemon if devDependency installed, or `node server.js`
+npm start   # uses nodemon if devDependency installed, or `node server.js`
 ```
 
 **backend/.env (sample)**

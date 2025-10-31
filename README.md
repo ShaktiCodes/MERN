@@ -1,4 +1,4 @@
-# (MERN) — Login & Registration System
+# (MERN) — Login & Registration System & Table Creation
 
 Simple, copy-ready README for the MERN project you asked for: React frontend + Node/Express backend + MongoDB.
 Implements: Register (Name, DOB, Email, Password), Login, JWT auth, store token & user in `localStorage`, protected Dashboard(HOME) with a static user table.

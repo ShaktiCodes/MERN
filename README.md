@@ -1,7 +1,7 @@
 # (MERN) — Login & Registration System
 
 Simple, copy-ready README for the MERN project you asked for: React frontend + Node/Express backend + MongoDB.
-Implements: Register (Name, DOB, Email, Password), Login, JWT auth, store token & user in `localStorage`, protected Dashboard with a static user table.
+Implements: Register (Name, DOB, Email, Password), Login, JWT auth, store token & user in `localStorage`, protected Dashboard(HOME) with a static user table.
 
 ---
 
@@ -11,7 +11,7 @@ Implements: Register (Name, DOB, Email, Password), Login, JWT auth, store token 
 * Backend APIs with password hashing (bcrypt) and JWT issuance
 * Frontend saves `token` and `user` (from backend) to `localStorage`
 * Protected Dashboard page — only accessible when logged in
-* Static user table on Dashboard (Name, Date Created, Role, Action)
+* Static user table on Dashboard (HOME) (Name, Date Created, Role, Action)
 * Tailwind CSS used for UI (or plain CSS if preferred)
 
 ---

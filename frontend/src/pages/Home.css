@@ -1,0 +1,139 @@
+body {
+  background: linear-gradient(180deg, #0abbb5, #015a77);
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.home-container {
+  max-width: 900px;
+  margin: 60px auto;
+  background: #0c1c2e;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-btn {
+  background: #e63946;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background: #ff4d5a;
+}
+
+.table-title {
+  text-align: center;
+  margin: 25px 0 15px;
+  color: #00e6e6;
+}
+
+.user-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.user-form input,
+.user-form select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 180px;
+  color: #0c1c2e;
+}
+
+.add-btn {
+  background: #00e6e6;
+  color: #0c1c2e;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #1de9b6;
+}
+
+/* Table */
+.table-wrapper {
+  background: #11263d;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 2fr 1.5fr 1.5fr 1fr;
+  background: #00bcd4;
+  color: #0c1c2e;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 2fr 1.5fr 1.5fr 1fr;
+  padding: 10px 15px;
+  background: #162b42;
+  border-radius: 6px;
+  align-items: center;
+  margin-top: 6px;
+  transition: 0.3s;
+}
+
+.table-row:hover {
+  background: #1d3557;
+}
+
+.status.active {
+  color: #00e676;
+}
+
+.status.suspended {
+  color: #ff5252;
+}
+
+.status.inactive {
+  color: #ffc107;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.edit-btn:hover {
+  color: #1de9b6;
+}
+
+.delete-btn:hover {
+  color: #ff4d5a;
+}
